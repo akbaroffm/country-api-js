@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Country</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Countries with API</h1>
+            <div>
+                <input class="search-name search" placeholder="search with name..." />
+                <input class="search-capital search" placeholder="search with capital..." />
+                <select class="select-region">
+                    <option value="All">All</option>
+                </select>
+                <button class="logout">Log out</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <ul class="country"></ul>
+    </main>
+    <div id="modal-wrapper" class="modal-wrapper">
+        <div class="modal"></div>
+    </div>
+</body>
+<script src="./js/app.js"></script>
+</html>
